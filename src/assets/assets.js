@@ -5,6 +5,8 @@ import review from  './icon-review.png';
 import star from './icon-ratings.png';
 import download from './icon-downloads.png';
 import github from './github.png';
+import pStore from './platStore.png';
+import aStore from './appStore.png'
 
 export const assets = {
     error, 
@@ -13,5 +15,7 @@ export const assets = {
     review,
     star,
     download,
-    github
+    github,
+    pStore,
+    aStore
 }
