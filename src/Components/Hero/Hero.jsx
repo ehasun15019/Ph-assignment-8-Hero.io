@@ -3,9 +3,9 @@ import { assets } from '../../assets/assets'
 
 const Hero = () => {
   return (
-    <div className='mt-9 px-10'>
+    <div className='mt-13 px-10'>
         <div className='text-center space-y-4'>
-            <h1 className='text-2xl md:text-3xl lg:text-4xl font-bold '>We Build <br /> <span className='bg-clip-text text-transparent bg-gradient-to-br from-[#6538BA] via-[#7A42E8] to-[#8854CE]'>Productive</span> Apps</h1>
+            <h1 className='text-2xl md:text-3xl lg:text-5xl font-bold '>We Build <br /> <span className='bg-clip-text text-transparent bg-gradient-to-br from-[#6538BA] via-[#7A42E8] to-[#8854CE]'>Productive</span> Apps</h1>
 
             <p className='text-gray-600 text-[0.8rem] md:text-[1rem]'>
                 At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.
