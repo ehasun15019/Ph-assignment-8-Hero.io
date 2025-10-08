@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CardDesign1 from "../CardDesign/CardDesign1";
+import { Link } from "react-router";
 
 const Trading = () => {
   const [data, setData] = useState([]);
@@ -51,7 +52,7 @@ const Trading = () => {
 
       <div className="mt-6 flex justify-center items-center">
         <button className="btn rounded-lg bg-gradient-to-br from-[#6538BA] via-[#7A42E8] to-[#8854CE] px-6">
-            <span className="font-semibold text-white">Show All</span>
+           <Link to="/apps"><span className="font-semibold text-white">Show All</span></Link>
         </button>
       </div>
     </div>

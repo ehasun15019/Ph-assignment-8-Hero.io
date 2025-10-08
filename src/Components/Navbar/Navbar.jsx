@@ -1,13 +1,37 @@
 import React from "react";
-import { assets } from "../../assets/assets";   <img className="w-5" src={assets.github} alt="github"/>
-import { Link } from "react-router";
+import { assets } from "../../assets/assets";   
+import { Link, NavLink } from "react-router";
 
 
 const navLink = <>
-    <Link to='/'><li className='m-2 font-semibold'>Home</li></Link>
-    <Link><li className='m-2 font-semibold'>Apps</li></Link>
-    <Link><li className='m-2 font-semibold'>Installation</li></Link>
+  <NavLink 
+    to="/" 
+    className={({ isActive }) => 
+      `m-2 font-semibold ${isActive ? 'text-[#7A42E8] underline' : ''}`
+    }
+  >
+    Home
+  </NavLink>
+
+  <NavLink 
+    to="/apps" 
+    className={({ isActive }) => 
+      `m-2 font-semibold ${isActive ? 'text-[#7A42E8] underline' : ''}`
+    }
+  >
+    Apps
+  </NavLink>
+
+  <NavLink 
+    to="/installation" 
+    className={({ isActive }) => 
+      `m-2 font-semibold ${isActive ? 'text-[#7A42E8] underline' : ''}`
+    }
+  >
+    Installation
+  </NavLink>
 </>
+
 
 const Navbar = () => {
   return (
