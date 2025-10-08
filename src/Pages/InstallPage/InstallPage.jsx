@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router";
 import CardDesign2 from "../../Components/CardDesign/CardDesign2";
-import { getInstallApps } from "../../Utilities/addAppsDB";
+import { getInstallApps, removeData } from "../../Utilities/addAppsDB";
 import Title from "../../Components/Headings/Title";
 
 const InstallPage = () => {
   // data coming from Routes.jsx
   const data = useLoaderData();
-  console.log(data);
+  
 
   const [installList, setInstallList] = useState([]);
 
@@ -21,6 +21,22 @@ const InstallPage = () => {
     setInstallList(filterApps);
   }, [data]);
 
+  /* ---- uninstall functionalities start */
+  const handleClickInstall = (id) => {
+    removeData(id);
+
+    setInstallList((prev) => {
+      return(
+        prev.filter((item) => {
+          return(
+            item.id !== id
+          )
+        })
+      )
+    })
+  }
+  /* ---- uninstall functionalities end */
+
   return (
     <div className="px-18">
         <div className="flex justify-center items-center text-center mt-10 mb-10">
@@ -33,7 +49,7 @@ const InstallPage = () => {
           No apps installed yet 😢
         </p>
       ) : (
-        <div className="">
+        <div>
           {installList.map((item) => (
             <CardDesign2
               key={item.id}
@@ -42,6 +58,7 @@ const InstallPage = () => {
               downloads={item.downloads}
               ratingAvg={item.ratingAvg}
               size={item.size}
+              onUninstall={() => handleClickInstall(item.id)} // 👈 added prop
             />
           ))}
         </div>

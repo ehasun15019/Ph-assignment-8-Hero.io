@@ -1,7 +1,7 @@
 import React from 'react'
 import { assets } from '../../assets/assets'
 
-const CardDesign2 = ({image, title, downloads, ratingAvg, size}) => {
+const CardDesign2 = ({image, title, downloads, ratingAvg, size, onUninstall}) => {
   return (
     <div>
         <div className="card-section bg-white mb-4 mt-3 py-3 px-5 rounded flex justify-between items-center">
@@ -32,7 +32,7 @@ const CardDesign2 = ({image, title, downloads, ratingAvg, size}) => {
            </div>
 
            <div className="button-sec">
-                <button className='bg-[#00D390] px-4 py-1 text-white rounded'>
+                <button onClick={onUninstall} className='bg-[#00D390] px-4 py-1 text-white rounded'>
                     <p>Uninstall</p>
                 </button>
             </div>

@@ -23,4 +23,20 @@ const addToAppsDB = (id) => {
     }
 }
 
-export {addToAppsDB, getInstallApps}
+
+const removeData = (id) => {
+    const storedApp = getInstallApps();
+    const numericId = Number(id);
+
+    const updateApps = storedApp.filter((item) => {
+        return(
+            item !== numericId
+        )
+    })
+
+    localStorage.setItem("appList", JSON.stringify(updateApps));
+
+    return updateApps;
+}
+
+export {addToAppsDB, getInstallApps, removeData}
