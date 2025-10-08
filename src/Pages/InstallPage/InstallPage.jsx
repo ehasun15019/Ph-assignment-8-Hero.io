@@ -15,7 +15,7 @@ const InstallPage = () => {
     const installedApps = getInstallApps();
 
     const filterApps = data.filter((item) => {
-      return installedApps.includes(item.id.toString());
+      return installedApps.includes(item.id);
     });
 
     setInstallList(filterApps);
