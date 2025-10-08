@@ -7,6 +7,7 @@ import download from './icon-downloads.png';
 import github from './github.png';
 import pStore from './platStore.png';
 import aStore from './appStore.png'
+import appsError from './appsError.png'
 
 export const assets = {
     error, 
@@ -17,5 +18,6 @@ export const assets = {
     download,
     github,
     pStore,
-    aStore
+    aStore,
+    appsError
 }

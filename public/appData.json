@@ -4,9 +4,9 @@
     "title": "CryptoPulse",
     "companyName": "FinEdge Labs",
     "id": 1,
-    "description": "Track live cryptocurrency prices, analyze trends, and manage your investments easily.",
+    "description": "Track live cryptocurrency prices, analyze market trends, and manage your investment portfolio with a suite of professional tools. \nOur real-time data feeds ensure you never miss a beat in the volatile crypto world. \nSet custom alerts for price movements and portfolio changes, and access detailed charting tools for in-depth technical analysis. \nCryptoPulse supports hundreds of coins and multiple exchanges, making it the only app you'll need to stay ahead of the curve. \nSecure your digital assets and make informed decisions, whether you're a beginner or a seasoned trader.",
     "size": 48,
-    "reviews": 14200,
+    "reviews": "14.2K",
     "ratingAvg": 4.6,
     "downloads": "12M",
     "ratings": [
@@ -15,16 +15,19 @@
       { "name": "3 star", "count": 1200 },
       { "name": "4 star", "count": 2500 },
       { "name": "5 star", "count": 9300 }
-    ]
+    ],
+    "description2": "CryptoPulse is the premier platform for monitoring and managing your digital currency investments. \nOur user interface is designed for clarity and ease of use, providing instant access to critical data. \nFrom Bitcoin to the newest altcoins, you can track performance across all your holdings in one consolidated dashboard. \nUtilize our portfolio management features to calculate profit/loss, diversification, and overall health of your investments. \nStay compliant and informed with integrated news feeds and regulatory updates.",
+    
+    "description3": "The ultimate tool for cryptocurrency enthusiasts and investors. \nCryptoPulse delivers lightning-fast price updates and comprehensive analytical reports. \nWe offer advanced features like margin call alerts, arbitrage opportunity detection, and backtesting capabilities for trading strategies. \nSecurity is paramount; your API keys and personal data are protected by state-of-the-art encryption protocols. \nJoin a community of smart investors who rely on FinEdge Labs for unparalleled insights. \nGet started today and transform the way you approach crypto trading."
   },
   {
     "image": "https://cdn-icons-png.flaticon.com/512/4696/4696998.png",
     "title": "FitNow",
     "companyName": "MoveWell Studios",
     "id": 2,
-    "description": "Personal fitness tracker with daily workout goals, diet logs, and progress analytics.",
+    "description": "Your personal fitness tracker with daily workout goals, diet logs, and deep progress analytics. \nFitNow creates customized workout plans tailored to your fitness level, whether you're aiming for weight loss, muscle gain, or marathon training. \nLog your meals with our massive food database, complete with macro and calorie breakdown. \nSync with wearable devices to get accurate heart rate and activity data. \nVisualize your progress over time with intuitive charts and graphs to stay motivated.",
     "size": 62,
-    "reviews": 10300,
+    "reviews": "10.3K",
     "ratingAvg": 4.4,
     "downloads": "89M",
     "ratings": [
@@ -33,16 +36,18 @@
       { "name": "3 star", "count": 1500 },
       { "name": "4 star", "count": 2900 },
       { "name": "5 star", "count": 6500 }
-    ]
+    ],
+    "description2": "FitNow is more than just a tracker; it's a complete health and wellness companion. \nIt provides video demonstrations for hundreds of exercises to ensure proper form and prevent injury. \nChallenge your friends and participate in global challenges to make fitness fun and social. \nReceive daily motivational tips and reminders to keep you on track with your water intake and sleep schedule. \nOur AI coach provides personalized feedback and adjusts your plan as you improve.",
+    "description3": "Achieve your health goals faster with the power of FitNow. \nOur comprehensive dashboard consolidates all your health metrics: activity, nutrition, sleep, and stress levels. \nAccess premium features including specialized plans for yoga, HIIT, and strength training designed by certified professionals. \nSet measurable, achievable goals and let our app guide you step-by-step to success. \nThe built-in community forum allows you to share achievements and seek advice from other users. \nDownload FitNow and start your journey to a healthier, more energetic you today."
   },
   {
     "image": "https://cdn-icons-png.flaticon.com/512/727/727240.png",
     "title": "Tuneify",
     "companyName": "WaveBeat Media",
     "id": 3,
-    "description": "Discover new music, create playlists, and stream your favorite songs anywhere.",
+    "description": "Discover new music, create personalized playlists, and stream your favorite songs anywhere, ad-free. \nTuneify boasts a library of over 80 million tracks, including rare indie artists and popular chart-toppers. \nOur powerful AI recommendation engine learns your taste to suggest new songs and artists you'll love. \nDownload music for offline playback, save data, and enjoy high-fidelity audio quality. \nConnect with friends to see what they are listening to and share your musical discoveries easily.",
     "size": 80,
-    "reviews": 8700,
+    "reviews": "8.7k",
     "ratingAvg": 4.7,
     "downloads": "21M",
     "ratings": [
@@ -51,16 +56,18 @@
       { "name": "3 star", "count": 1000 },
       { "name": "4 star", "count": 2700 },
       { "name": "5 star", "count": 7000 }
-    ]
+    ],
+    "description2": "The definitive music streaming experience is here with Tuneify. \nEnjoy curated daily mixes and mood-based playlists for any occasion, from working out to relaxing. \nListen seamlessly across all your devices: phone, tablet, desktop, and smart speakers. \nOur platform supports lossless audio streaming for the purest sound experience possible. \nFollow your favorite artists and get instant notifications for new releases and concert dates.",
+    "description3": "Dive into a universe of sound with Tuneify. \nExperience crystal-clear audio with our exclusive WaveBeat technology that optimizes playback for any headphones. \nCreate collaborative playlists with friends for road trips or parties, managing the music together in real-time. \nAccess exclusive interviews, live sessions, and original content only available on our platform. \nSearch for music using lyrics or even by humming a tune—our recognition is that advanced. \nTuneify redefines how you listen to, discover, and share your passion for music with the world."
   },
   {
     "image": "https://cdn-icons-png.flaticon.com/512/868/868786.png",
     "title": "TaskFlow",
     "companyName": "FocusHive",
     "id": 4,
-    "description": "Organize tasks and boost productivity with smart to-do lists and progress tracking.",
+    "description": "Organize tasks and boost productivity with smart to-do lists and detailed progress tracking. \nTaskFlow allows you to break down large projects into manageable subtasks, assigning due dates and priority levels. \nUse the Pomodoro timer built into the app to maintain focus and manage work intervals effectively. \nSync your tasks across all devices so your to-do list is always up-to-date, whether you're at your desk or on the go. \nVisualize your completed tasks with satisfying charts that motivate you to achieve more.",
     "size": 55,
-    "reviews": 6200,
+    "reviews": "6.2K",
     "ratingAvg": 4.5,
     "downloads": "76M",
     "ratings": [
@@ -69,16 +76,18 @@
       { "name": "3 star", "count": 1000 },
       { "name": "4 star", "count": 2000 },
       { "name": "5 star", "count": 5200 }
-    ]
+    ],
+    "description2": "TaskFlow is the essential tool for individuals and small teams seeking peak efficiency. \nIts intuitive drag-and-drop interface makes organizing complex workflows a breeze. \nAssign tasks to team members, set up automated reminders, and track their completion status in real-time. \nIntegrate with your favorite calendar and email applications for a seamless planning experience. \nCreate custom tags and filters to sort your tasks quickly and find what you need instantly.",
+    "description3": "Maximize your output and minimize stress with the powerful features of TaskFlow. \nOur 'Smart Scheduling' feature uses AI to suggest the best time to tackle high-priority items based on your energy levels and deadlines. \nSwitch between Kanban board, list view, and calendar view to manage tasks in the way that best suits your work style. \nGenerate detailed productivity reports to identify time sinks and areas for improvement in your routine. \nTaskFlow supports voice commands for quick task entry, making it easy to capture ideas the moment they strike. \nStart using TaskFlow today and transform your aspirations into achievements."
   },
   {
     "image": "https://cdn-icons-png.flaticon.com/512/2920/2920277.png",
     "title": "Snaply",
     "companyName": "LensCraft Studios",
     "id": 5,
-    "description": "Capture, edit, and share stunning photos using professional filters and AI tools.",
+    "description": "Capture, edit, and share stunning photos using professional filters and cutting-edge AI tools. \nSnaply provides a full suite of non-destructive editing tools, including advanced color correction, curve adjustments, and selective focus. \nOur AI automatically enhances your images, suggesting optimal crops and lighting adjustments. \nAccess exclusive, constantly updated filters and effects that mimic film photography and professional studio looks. \nShare your high-resolution creations directly to social media or save them to your private cloud storage.",
     "size": 92,
-    "reviews": 9800,
+    "reviews": "9.8K",
     "ratingAvg": 4.8,
     "downloads": "33M",
     "ratings": [
@@ -87,16 +96,18 @@
       { "name": "3 star", "count": 900 },
       { "name": "4 star", "count": 2700 },
       { "name": "5 star", "count": 8000 }
-    ]
+    ],
+    "description2": "Turn ordinary moments into extraordinary visuals with Snaply. \nFeatures include a powerful camera mode with manual controls for ISO, shutter speed, and white balance. \nEasily remove unwanted objects or people from your photos using our intelligent healing brush tool. \nCreate beautiful collages, add text and stickers, and design unique photo layouts for storytelling. \nBrowse user-created tutorials to master advanced editing techniques and unlock your creative potential.",
+    "description3": "Snaply is the gold standard for mobile photo editing and creation. \nExperience our revolutionary 'Dynamic HDR' feature that captures an incredible range of light and detail, even in challenging conditions. \nUtilize the built-in face and body reshaping tools for perfect portraits, all while maintaining a natural look. \nAll your edits are stored in the cloud, allowing you to pick up where you left off on any device. \nPrint your masterpieces directly from the app with our integrated printing service, delivering gallery-quality results. \nJoin millions of creators who rely on LensCraft Studios to bring their visual stories to life."
   },
   {
     "image": "https://cdn-icons-png.flaticon.com/512/1048/1048953.png",
     "title": "LinguaGo",
     "companyName": "EduTalk Labs",
     "id": 6,
-    "description": "Learn languages with interactive lessons, quizzes, and pronunciation practice.",
+    "description": "Learn languages with interactive lessons, fun quizzes, and crucial pronunciation practice. \nLinguaGo offers courses in over 30 languages, from widely spoken ones like Spanish and French to more niche languages like Navajo. \nOur curriculum is designed by linguistic experts, focusing on practical conversational skills and cultural immersion. \nUse the speech recognition feature to get instant, accurate feedback on your speaking and intonation. \nTrack your learning streak and compete with friends on the global leaderboards to stay motivated.",
     "size": 67,
-    "reviews": 7600,
+    "reviews": "7.6k",
     "ratingAvg": 4.6,
     "downloads": "18M",
     "ratings": [
@@ -105,16 +116,18 @@
       { "name": "3 star", "count": 1200 },
       { "name": "4 star", "count": 2500 },
       { "name": "5 star", "count": 5800 }
-    ]
+    ],
+    "description2": "LinguaGo adapts to your unique learning style and pace. \nLessons incorporate real-life dialogue scenarios, helping you transition from theory to confident communication. \nReview vocabulary with spaced repetition flashcards optimized to maximize memory retention. \nUnlock new achievement badges and virtual rewards as you progress through the mastery levels of your chosen language. \nDownload lessons for offline learning and practice your skills even without an internet connection.",
+    "description3": "Unlock your potential to speak a new language fluently with LinguaGo. \nAccess our premium feature: 1-on-1 video sessions with native-speaking tutors for personalized coaching. \nThe app uses a storytelling method to embed grammar and vocabulary in context, making learning intuitive and engaging. \nPrepare for travel or business with specialized modules focused on industry-specific terminology and phrases. \nJoin our live language exchange community to practice with native speakers around the globe for free. \nWith EduTalk Labs, your journey to becoming bilingual or multilingual is supported every step of the way."
   },
   {
     "image": "https://cdn-icons-png.flaticon.com/512/720/720295.png",
     "title": "BudgetMate",
     "companyName": "SmartFinance Inc.",
     "id": 7,
-    "description": "Manage expenses, set budgets, and visualize spending habits easily.",
+    "description": "Manage expenses, set realistic budgets, and visualize your spending habits easily for financial control. \nBudgetMate securely syncs with your bank accounts and credit cards to automatically categorize all your transactions. \nSet up customizable spending limits for different categories like groceries, entertainment, and utilities. \nReceive instant alerts when you're close to hitting a budget or for any unusual account activity. \nGenerate detailed monthly and yearly financial reports to identify savings opportunities and track net worth.",
     "size": 58,
-    "reviews": 8900,
+    "reviews": "8.9K",
     "ratingAvg": 4.5,
     "downloads": "12M",
     "ratings": [
@@ -123,16 +136,18 @@
       { "name": "3 star", "count": 1200 },
       { "name": "4 star", "count": 2500 },
       { "name": "5 star", "count": 7100 }
-    ]
+    ],
+    "description2": "Take the stress out of personal finance with BudgetMate. \nIt supports multiple currencies, making it perfect for travelers and those with international finances. \nEasily track specific savings goals, such as a down payment for a house or a dream vacation. \nInput cash transactions manually with a simple, quick-entry interface. \nOur security measures include bank-level encryption and biometric authentication to protect your sensitive data.",
+    "description3": "BudgetMate is your powerful partner for achieving financial freedom. \nUtilize our 'Future Forecaster' tool to simulate the impact of major purchases or lifestyle changes on your long-term finances. \nAutomate bill tracking and receive payment reminders to avoid late fees and manage your credit score effectively. \nThe app provides personalized tips and articles from certified financial advisors to improve your money management skills. \nCreate shared budgets for couples or roommates to manage household expenses transparently and fairly. \nSmartFinance Inc. is committed to helping you save more, spend smarter, and build lasting wealth."
   },
   {
     "image": "https://cdn-icons-png.flaticon.com/512/599/599305.png",
     "title": "Foodo",
     "companyName": "DelishWare",
     "id": 8,
-    "description": "Order food from your favorite restaurants and track delivery live.",
+    "description": "Order food from your favorite local restaurants and track your delivery live with GPS accuracy. \nFoodo features a vast selection of cuisines, from quick bites to gourmet meals, all at your fingertips. \nBrowse through high-quality photos, read authentic user reviews, and filter by dietary restrictions like vegan, gluten-free, or keto. \nEasily customize your order with special instructions and enjoy seamless, secure payment options. \nOur dedicated logistics team ensures your meal arrives hot and fresh, right to your door.",
     "size": 72,
-    "reviews": 15600,
+    "reviews": "15.6K",
     "ratingAvg": 4.7,
     "downloads": "34M",
     "ratings": [
@@ -141,16 +156,18 @@
       { "name": "3 star", "count": 1800 },
       { "name": "4 star", "count": 4000 },
       { "name": "5 star", "count": 9000 }
-    ]
+    ],
+    "description2": "Foodo makes satisfying your cravings simple and delightful. \nSave your favorite restaurants and previous orders for quick reordering in just a few taps. \nAccess exclusive, in-app deals and promotions only available to Foodo users. \nPre-order meals for future dates and times, perfect for planning parties or work lunches. \nOur customer support is available 24/7 to assist with any order or delivery issues you may encounter.",
+    "description3": "Experience the next level of food delivery with DelishWare's Foodo. \nUtilize our 'Group Order' feature to easily collect orders from multiple people and split the bill fairly. \nEarn loyalty points with every order, which can be redeemed for discounts on future meals. \nThe app features real-time notifications about your order status, from preparation to the moment it leaves the restaurant. \nDiscover hidden culinary gems in your neighborhood using our 'Top Rated Local' section and user recommendations. \nWhether you're hungry now or planning for later, Foodo delivers exactly what you're craving, fast."
   },
   {
     "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
     "title": "Healthify",
     "companyName": "CareOne Apps",
     "id": 9,
-    "description": "Monitor your fitness, water intake, and sleep with AI-powered insights.",
+    "description": "Monitor your fitness, water intake, and sleep with cutting-edge AI-powered insights for a holistic view of your health. \nHealthify connects with all major fitness wearables and health platforms to consolidate your data in one place. \nThe AI analyzes your patterns to provide personalized recommendations for improving sleep hygiene and daily energy levels. \nEasily log your water consumption with smart reminders to ensure you meet your hydration goals every day. \nTrack your mood and stress levels to understand the correlation between your mental and physical well-being.",
     "size": 69,
-    "reviews": 9700,
+    "reviews": "9.7K",
     "ratingAvg": 4.6,
     "downloads": "19M",
     "ratings": [
@@ -159,16 +176,18 @@
       { "name": "3 star", "count": 1300 },
       { "name": "4 star", "count": 2700 },
       { "name": "5 star", "count": 6500 }
-    ]
+    ],
+    "description2": "Healthify is designed to simplify your health routine. \nIt offers guided meditation and breathing exercises to help reduce anxiety and improve focus. \nSet and monitor daily health goals, from taking a certain number of steps to getting adequate sleep. \nShare your data securely with your doctor or physical therapist for more informed care. \nAccess a library of health articles and videos curated by medical professionals to stay informed about wellness.",
+    "description3": "Get smarter about your health with the deep intelligence of Healthify. \nOur proprietary sleep analysis tracks light, deep, and REM cycles, providing actionable tips to maximize restorative rest. \nIt features a symptom checker tool, offering initial guidance and suggesting when to seek professional medical attention. \nTrack your long-term vitals, like blood pressure and glucose levels, and visualize trends for better disease management. \nParticipate in corporate wellness programs or challenges to earn rewards and stay engaged with your health journey. \nCareOne Apps is dedicated to empowering you with the knowledge to live a longer, healthier, and happier life."
   },
   {
     "image": "https://cdn-icons-png.flaticon.com/512/1023/1023660.png",
     "title": "ShopEase",
     "companyName": "UrbanBuy Co.",
     "id": 10,
-    "description": "Shop top brands, get exclusive deals, and enjoy fast, secure delivery.",
+    "description": "Shop top global and local brands, get exclusive deals, and enjoy fast, secure delivery right to your door. \nShopEase features an immense catalog spanning fashion, electronics, home goods, and more, all with verified customer reviews. \nUse the image search feature to quickly find products just by taking or uploading a photo. \nOur secure checkout process supports multiple payment methods, including digital wallets and installment plans. \nTrack your order from the moment of purchase until it arrives at your location with real-time updates.",
     "size": 81,
-    "reviews": 13300,
+    "reviews": "13.3K",
     "ratingAvg": 4.4,
     "downloads": "45M",
     "ratings": [
@@ -177,16 +196,18 @@
       { "name": "3 star", "count": 2100 },
       { "name": "4 star", "count": 3400 },
       { "name": "5 star", "count": 9600 }
-    ]
+    ],
+    "description2": "ShopEase is designed for a convenient and efficient mobile shopping experience. \nCreate personalized wish lists and receive price drop alerts for items you're interested in buying later. \nOur AI-driven recommendation engine suggests products tailored to your browsing and purchase history. \nEnjoy a hassle-free return and exchange policy with easy in-app scheduling for pickups. \nAccess our customer loyalty program to earn points and unlock special VIP discounts and early access to sales.",
+    "description3": "Discover the smartest way to shop with UrbanBuy Co.'s ShopEase. \nFeatures include virtual try-on technology for clothing and accessories, enhancing your confidence before you buy. \nEngage with sellers directly through our in-app chat for product questions or custom orders. \nWe are committed to sustainability, offering a curated selection of eco-friendly and ethically sourced products. \nGet instant notifications about flash sales and limited-time offers so you never miss a chance to save. \nShopEase: providing a diverse selection, unbeatable prices, and a delivery service you can rely on."
   },
   {
     "image": "https://cdn-icons-png.flaticon.com/512/1818/1818085.png",
     "title": "Tripzy",
     "companyName": "ExploreWorld",
     "id": 11,
-    "description": "Plan trips, find hotels, and explore destinations worldwide with ease.",
+    "description": "Plan your dream trips, find the best deals on hotels, flights, and activities, and explore destinations worldwide with absolute ease. \nTripzy's smart itinerary builder lets you organize your daily plans, keeping all booking confirmations in one secure place. \nCompare prices from hundreds of travel providers to ensure you always get the lowest fare or best room rate. \nAccess offline maps and essential travel guides, so you can navigate and explore even without a data connection. \nReceive real-time flight status alerts, gate changes, and delay notifications directly to your phone.",
     "size": 77,
-    "reviews": 8700,
+    "reviews": "8.7K",
     "ratingAvg": 4.5,
     "downloads": "24M",
     "ratings": [
@@ -195,16 +216,18 @@
       { "name": "3 star", "count": 1200 },
       { "name": "4 star", "count": 2500 },
       { "name": "5 star", "count": 6800 }
-    ]
+    ],
+    "description2": "Tripzy is your all-in-one travel assistant. \nDiscover hidden gems and local favorites recommended by a global community of travelers. \nEasily book rental cars and airport transfers directly within the application for seamless transitions. \nSplit costs and manage group budgets with friends using the integrated expense-sharing tool. \nSave and share your favorite itineraries and travel journals with fellow adventurers.",
+    "description3": "Travel smarter, not harder, with ExploreWorld's Tripzy. \nOur unique 'Destination Explorer' feature uses virtual reality to give you a preview of your potential hotels and landmarks. \nGet personalized recommendations for activities and dining based on your interests and location using predictive analytics. \nThe app offers 24/7 in-app support for emergency bookings, cancellations, or changes to your travel plans. \nAutomatically convert currency and translate common phrases with the built-in travel toolkit. \nFrom solo backpacking adventures to luxury family vacations, Tripzy is the key to unlocking unforgettable travel experiences."
   },
   {
     "image": "https://cdn-icons-png.flaticon.com/512/590/590769.png",
     "title": "DailyNews",
     "companyName": "InfoCast Media",
     "id": 12,
-    "description": "Stay informed with global news updates, personalized topics, and alerts.",
+    "description": "Stay informed with global news updates, personalized topics, and essential breaking news alerts from trusted sources worldwide. \nDailyNews aggregates content from hundreds of reputable publications, giving you a diverse and balanced perspective. \nCustomize your feed to focus on the topics that matter most to you, such as politics, tech, sports, or local events. \nAccess in-depth investigative reports, opinion columns, and exclusive video content not available anywhere else. \nSave articles for offline reading and enjoy a clean, ad-light interface designed for focus.",
     "size": 65,
-    "reviews": 11800,
+    "reviews": "11.8K",
     "ratingAvg": 4.3,
     "downloads": "34M",
     "ratings": [
@@ -213,16 +236,18 @@
       { "name": "3 star", "count": 1800 },
       { "name": "4 star", "count": 3100 },
       { "name": "5 star", "count": 7300 }
-    ]
+    ],
+    "description2": "DailyNews is the fastest way to understand the world around you. \nOur editorial team curates a 'Morning Briefing' summary delivered daily to your inbox or notification center. \nEasily share articles with friends and family via social media or email with a single tap. \nUtilize our in-app fact-checking tool powered by independent organizations to combat misinformation. \nSwitch to 'Night Mode' for a comfortable reading experience in low-light environments.",
+    "description3": "Get the full story with the comprehensive coverage offered by DailyNews. \nFeatures include live streaming of major events and press conferences from around the globe for real-time reporting. \nSubscribe to expert-led newsletters on specific industries or topics for highly specialized knowledge. \nOur powerful search function allows you to find historical articles and background information on any news story instantly. \nParticipate in respectful in-app discussions and polls to share your perspective with a global audience. \nInfoCast Media is dedicated to delivering accurate, timely, and insightful journalism to all our readers."
   },
   {
     "image": "https://cdn-icons-png.flaticon.com/512/3064/3064197.png",
     "title": "SafeLock",
     "companyName": "CyberTrust",
     "id": 13,
-    "description": "Protect your passwords with advanced encryption and biometric access.",
+    "description": "Protect all your passwords, secure notes, and sensitive files with advanced encryption and convenient biometric access. \nSafeLock uses AES-256 encryption, the industry standard, to ensure your data is virtually impenetrable. \nGenerate strong, unique passwords for all your online accounts with our built-in password generator. \nUse the auto-fill feature to log into websites and apps quickly and securely without typing credentials. \nSync your encrypted vault across all your devices so your critical information is always available when you need it.",
     "size": 53,
-    "reviews": 5200,
+    "reviews": "5.2K",
     "ratingAvg": 4.8,
     "downloads": "98M",
     "ratings": [
@@ -231,16 +256,18 @@
       { "name": "3 star", "count": 800 },
       { "name": "4 star", "count": 1600 },
       { "name": "5 star", "count": 4100 }
-    ]
+    ],
+    "description2": "SafeLock is the ultimate digital security guardian for your personal and professional life. \nIt includes a feature to check your existing passwords against known data breach lists, alerting you to compromised accounts. \nStore and encrypt documents, such as tax forms or health records, well beyond the capability of standard cloud storage. \nSet up emergency access for trusted contacts in case you are unable to access your account. \nOur zero-knowledge architecture means even we cannot access your encrypted data—only you hold the key.",
+    "description3": "Achieve total peace of mind with the robust security features of SafeLock. \nProtect your digital identity with two-factor authentication (2FA) for all stored accounts, including time-based one-time passwords (TOTP). \nSecurely share passwords or files with other SafeLock users using end-to-end encryption. \nGet alerted to weak or duplicate passwords, and receive personalized recommendations for strengthening your overall security posture. \nAccess a full activity log to monitor who has accessed or attempted to access your vault, enhancing audit trails. \nCyberTrust provides enterprise-grade security for everyone, making digital life safer and simpler."
   },
   {
     "image": "https://cdn-icons-png.flaticon.com/512/2942/2942909.png",
     "title": "EduLearn",
     "companyName": "BrightMind Academy",
     "id": 14,
-    "description": "Online courses and tutorials designed to enhance your skills anytime.",
+    "description": "Access a vast library of online courses and professional tutorials designed to enhance your skills anytime, anywhere. \nEduLearn features content created by university professors and industry leaders in fields like coding, marketing, and creative arts. \nCourses include video lectures, interactive exercises, and downloadable resources for practical application of knowledge. \nEarn professional certificates upon course completion, which you can share on your LinkedIn profile to boost your career prospects. \nLearn at your own pace with unlimited lifetime access to all purchased courses and updates.",
     "size": 90,
-    "reviews": 15600,
+    "reviews": "5.6K",
     "ratingAvg": 4.7,
     "downloads": "50M",
     "ratings": [
@@ -249,16 +276,18 @@
       { "name": "3 star", "count": 1600 },
       { "name": "4 star", "count": 4000 },
       { "name": "5 star", "count": 10400 }
-    ]
+    ],
+    "description2": "EduLearn is committed to making world-class education accessible. \nJoin live Q&A sessions with instructors for direct feedback and personalized guidance on your learning journey. \nOur platform features peer-to-peer discussion forums where you can collaborate and network with students globally. \nTrack your progress with detailed analytics that show time spent, quiz scores, and course completion rates. \nDownload video lectures and course materials to continue learning without relying on an internet connection.",
+    "description3": "Invest in your future with the highest quality educational content from BrightMind Academy. \nExplore specialized 'Career Path' tracks that guide you through a sequence of courses needed to master a new profession. \nUtilize our AI-powered study buddy for instant answers to course-related questions and concept reinforcement. \nEnroll in our corporate training programs designed to upskill your entire team with customizable learning modules. \nWe offer a full 30-day money-back guarantee, allowing you to try any course risk-free and ensure it meets your needs. \nStart learning a new skill today and transform your career trajectory with the power of EduLearn."
   },
   {
     "image": "https://cdn-icons-png.flaticon.com/512/1163/1163624.png",
     "title": "Weatherly",
     "companyName": "SkyCast Tech",
     "id": 15,
-    "description": "Get accurate weather forecasts, alerts, and live radar for any location.",
+    "description": "Get the most accurate weather forecasts, critical severe weather alerts, and live radar for any location worldwide. \nWeatherly provides hyper-local forecasts with minute-by-minute precipitation predictions for your exact street address. \nTrack severe weather patterns, including hurricanes and snowstorms, with our high-definition, interactive radar map. \nView detailed metrics like wind speed, humidity, UV index, air quality, and 'feels like' temperature. \nPlan your day confidently with 7-day and 14-day outlooks that feature hourly breakdowns and sunrise/sunset times.",
     "size": 73,
-    "reviews": 8700,
+    "reviews": "8.7K",
     "ratingAvg": 4.6,
     "downloads": "29M",
     "ratings": [
@@ -267,6 +296,8 @@
       { "name": "3 star", "count": 1000 },
       { "name": "4 star", "count": 2500 },
       { "name": "5 star", "count": 6800 }
-    ]
+    ],
+    "description2": "Weatherly is essential for daily planning and outdoor activities. \nCustomize the app interface with beautiful backgrounds that reflect the current weather conditions outside. \nReceive push notifications for lightning strikes, heavy rain, or temperature drops in your area. \nFeatures include specialized forecasts for activities like skiing, surfing, and gardening. \nSwitch easily between multiple saved locations, perfect for planning travel or checking on distant family members.",
+    "description3": "Trust your forecasts to the power of SkyCast Tech with Weatherly. \nOur proprietary forecasting models use a blend of satellite imagery, ground sensors, and machine learning for unmatched accuracy. \nAccess historical weather data and climate trends to prepare for seasonal changes or major construction projects. \nView a full astronomical forecast, including moon phases, meteor showers, and other celestial events. \nShare real-time weather observations with the community to help refine local forecasts and alerts for everyone. \nDownload Weatherly and always be one step ahead of the weather, ensuring safety and optimal planning."
   }
 ]

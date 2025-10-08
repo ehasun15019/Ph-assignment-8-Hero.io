@@ -3,6 +3,7 @@ import Roots from "../Pages/Roots/Roots";
 import Home from "../Pages/Home/Home";
 import ErrorPage from "../Pages/Error/ErrorPage";
 import Apps from "../Pages/Apps/Apps";
+import AppsDetails from "../Pages/AppsDetails/AppsDetails";
 
 export const router = createBrowserRouter([
   {
@@ -18,6 +19,15 @@ export const router = createBrowserRouter([
       {
         path: "/apps",
         Component: Apps,
+      },
+      {
+        path: "/appDetails/:id",
+        Component: AppsDetails,
+        loader: () => {
+          return (
+            fetch('/appData.json')
+          )
+        }
       }
     ]
   },
