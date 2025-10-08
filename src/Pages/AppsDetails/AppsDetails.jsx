@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useLoaderData, useParams } from "react-router";
 import { assets } from "../../assets/assets";
 import {BarChart,Bar,XAxis,YAxis,CartesianGrid,Tooltip,ResponsiveContainer} from "recharts";
+import { addToAppsDB, getInstallApps } from "../../Utilities/addAppsDB";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 const AppsDetails = () => {
@@ -19,7 +22,31 @@ const AppsDetails = () => {
     return app.id === appsId;
   });
 
-    // if app details not found 
+   
+    /* installed functionalities start */
+    const [isInstalled, setIsInstalled] = useState(false);
+
+    useEffect(() => {
+      const installedApps = getInstallApps();
+
+      if (installedApps.includes(appsId)) {
+        setIsInstalled(true);
+      }
+
+    }, [appsId])
+
+    const handleClickInstall = (id) => {
+      addToAppsDB(id);
+      setIsInstalled(true);
+      toast.success("✅ App installed successfully!", {
+        position: "top-right",
+        autoClose: 2000,
+        theme: "colored",
+      });
+    }
+    /* installed functionalities end */
+
+     // if app details not found 
     if (!singleApp) {
         return (
             <div className="text-center py-20 text-xl px-10">
@@ -33,7 +60,8 @@ const AppsDetails = () => {
         );
     }
 
-  const {image,title,companyName,downloads,ratingAvg,reviews,description,description2,description3,ratings} = singleApp;
+
+  const {image,title,companyName,downloads,ratingAvg,reviews,description,description2,description3,ratings, size} = singleApp;
    
 
   return (
@@ -92,9 +120,17 @@ const AppsDetails = () => {
               </div>
             </div>
 
-            <Link className="bg-[#00D390] px-3 py-2 text-white rounded font-semibold">
-              Install Now (291 MB)
-            </Link>
+            <button
+                onClick={() => handleClickInstall(id)}
+                disabled={isInstalled}
+                className={`px-4 py-2 rounded font-semibold text-white transition-all ${
+                  isInstalled
+                    ? "bg-gray-400 cursor-not-allowed"
+                    : "bg-[#00D390] hover:bg-[#05b57e]"
+                }`}
+              >
+                {isInstalled ? "Installed" : `Install Now (${size} MB)`}
+            </button>
           </div>
         </div>
       </section>
@@ -139,6 +175,8 @@ const AppsDetails = () => {
         <p className="mt-4 text-gray-600">{description2}</p>
         <p className="mt-4 text-gray-600">{description3}</p>
       </section>
+
+      <ToastContainer />
     </div>
   );
 };

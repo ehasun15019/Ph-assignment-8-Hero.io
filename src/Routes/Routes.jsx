@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import ErrorPage from "../Pages/Error/ErrorPage";
 import Apps from "../Pages/Apps/Apps";
 import AppsDetails from "../Pages/AppsDetails/AppsDetails";
+import InstallPage from "../Pages/InstallPage/InstallPage";
 
 export const router = createBrowserRouter([
   {
@@ -23,6 +24,15 @@ export const router = createBrowserRouter([
       {
         path: "/appDetails/:id",
         Component: AppsDetails,
+        loader: () => {
+          return (
+            fetch('/appData.json')
+          )
+        }
+      },
+      {
+        path: "/installation",
+        Component: InstallPage,
         loader: () => {
           return (
             fetch('/appData.json')
