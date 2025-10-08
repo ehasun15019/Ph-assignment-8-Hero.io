@@ -17,12 +17,12 @@ const CardDesign1 = ({image, title, downloads, ratingAvg}) => {
           <h2 className="card-title py-2">{title}</h2>
     
           <div className="card-actions flex justify-between">
-            <button className="btn bg-[#F1F5E8] border-0">
+            <button className="bg-[#F1F5E8] border-0 flex px-3 py-2 items-center gap-2">
                 <img src={assets.download} alt="download image" className="w-5" />
                 {downloads}
             </button>
 
-            <button className="btn bg-[#FFF0E1] border-0">
+            <button className="bg-[#FFF0E1] border-0 flex px-3 py-2 items-center gap-2">
                <img src={assets.star} alt="star image"  className="w-5"/>
                 {ratingAvg}
             </button>
