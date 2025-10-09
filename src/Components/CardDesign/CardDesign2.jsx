@@ -4,8 +4,8 @@ import { assets } from '../../assets/assets'
 const CardDesign2 = ({image, title, downloads, ratingAvg, size, onUninstall}) => {
   return (
     <div>
-        <div className="card-section bg-white mb-4 mt-3 py-3 px-5 rounded flex justify-between items-center">
-           <div className='flex gap-3 items-center'>
+        <div className="card-section bg-white mb-4 mt-3 py-6 px-5 rounded flex flex-col md:flex-row justify-between items-center gap-5">
+           <div className='flex gap-3 items-center flex-col md:flex-row justify-center text-center'>
              <div className="image-sec w-[40px]">
                 <img src={image} alt={title} />
              </div>
@@ -32,7 +32,7 @@ const CardDesign2 = ({image, title, downloads, ratingAvg, size, onUninstall}) =>
            </div>
 
            <div className="button-sec">
-                <button onClick={onUninstall} className='bg-[#00D390] px-4 py-1 text-white rounded'>
+                <button onClick={onUninstall} className='bg-[#00D390] px-5 py-2 text-white rounded'>
                     <p>Uninstall</p>
                 </button>
             </div>
