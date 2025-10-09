@@ -36,7 +36,7 @@ const navLink = <>
 const Navbar = () => {
   return (
     <div className="">
-      <div className="navbar bg-base-100 px-10">
+      <div className="navbar bg-base-100 px-4 md:px-6 lg:px-10">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -66,8 +66,8 @@ const Navbar = () => {
             </ul>
           </div>
           <a href="/" className="font-bold text-xl flex items-center gap-3">
-            <img className="w-11" src={assets.logo} alt="logo"/>
-            <span className="bg-clip-text text-transparent  bg-gradient-to-br from-[#6538BA] via-[#7A42E8] to-[#8854CE]">HERO.IO</span>
+            <img className="w-8 md:w-10 lg:w-11" src={assets.logo} alt="logo"/>
+            <span className="bg-clip-text text-transparent bg-gradient-to-br from-[#6538BA] via-[#7A42E8] to-[#8854CE] text-[0.9rem] md:text-[1.1rem]">HERO.IO</span>
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">

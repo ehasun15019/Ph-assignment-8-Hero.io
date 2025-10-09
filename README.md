@@ -11,11 +11,3 @@
 
 
 
-
-
-
-functionalities: 
-**** installtion page a 
-        - app found 
-        - sort by korte hbe 
-
