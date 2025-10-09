@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import CardDesign1 from '../CardDesign/CardDesign1';
 import { Link } from 'react-router';
+import SearchLoading from '../SearchLoading/SearchLoading';
 
 const AllAppsData = () => {
 
@@ -11,6 +12,7 @@ const AllAppsData = () => {
   const [filterData, setFilterData] = useState([]);
   const [search, setSearch] = useState("");
   const [suggestions, setSuggestions] = useState([]);
+  const [searchLoading, setSearchLoading] = useState(false);
 
   useEffect(() => {
     fetch("/appData.json")
@@ -30,19 +32,23 @@ const AllAppsData = () => {
   const handleSearch = (e) => {
     const searchValue = e.target.value.toLowerCase();
     setSearch(searchValue);
+    setSearchLoading(true);
 
     if (searchValue.trim() === "") {
       setFilterData(showAllData);
       setSuggestions([]);
+      setSearchLoading(false)
       return;
     }
 
-    const filtered = showAllData.filter((item) =>
-      item.title.toLowerCase().includes(searchValue)
-    );
-
-    setFilterData(filtered);
-    setSuggestions(filtered.slice(0, 5));
+    setTimeout(() => {
+      const filtered = showAllData.filter((item) =>
+        item.title.toLowerCase().includes(searchValue)
+      );
+      setFilterData(filtered);
+      setSuggestions(filtered.slice(0, 5));
+      setSearchLoading(false); 
+    }, 500);
   };
 
   // select suggestion
@@ -53,6 +59,7 @@ const AllAppsData = () => {
     );
     setFilterData(filtered);
     setSuggestions([]);
+    setSearchLoading(false)
   };
 
   if (animatedLoading) {
@@ -116,26 +123,28 @@ const AllAppsData = () => {
       </div>
 
       {/* ==== No Data Found ==== */}
-      {filterData.length === 0 ? (
+      {searchLoading ? (
+        <div className="mt-20">
+          <SearchLoading />
+        </div>
+      ) : filterData.length === 0 ? (
         <div className="text-center mt-20">
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-400">
-             No Apps Found
+            No Apps Found
           </h2>
         </div>
       ) : (
         <div className="showData grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-10 justify-items-center px-6">
-             {filterData.map((item) => (
-                <Link to={`/appDetails/${item.id}`}>
-                    <CardDesign1
-                        key={item.id}
-                        image={item.image}
-                        title={item.title}
-                        downloads={item.downloads}
-                        ratingAvg={item.ratingAvg}
-                    />
-                </Link>
-                
-            ))}
+          {filterData.map((item) => (
+            <Link to={`/appDetails/${item.id}`} key={item.id}>
+              <CardDesign1
+                image={item.image}
+                title={item.title}
+                downloads={item.downloads}
+                ratingAvg={item.ratingAvg}
+              />
+            </Link>
+          ))}
         </div>
       )}
     </div>

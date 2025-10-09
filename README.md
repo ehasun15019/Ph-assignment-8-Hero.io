@@ -15,8 +15,6 @@
 
 
 functionalities: 
-
-****search ar somoi loading animation make kora
 **** installtion page a 
         - app found 
         - sort by korte hbe 
