@@ -5,7 +5,7 @@ import { assets } from "../../assets/assets";
 const CardDesign1 = ({image, title, downloads, ratingAvg}) => {
   return (
     <div>
-      <div className="card bg-base-100 w-70 shadow-sm p-4">
+      <div className="card bg-base-100 w-70 md:w-56 lg:w-75 shadow-sm p-4">
         <figure className="py-12 px-5 bg-gray-100 rounded-b rounded-t">
           <img
             src={image}
@@ -19,12 +19,12 @@ const CardDesign1 = ({image, title, downloads, ratingAvg}) => {
           <div className="card-actions flex justify-between">
             <button className="bg-[#F1F5E8] border-0 flex px-3 py-2 items-center gap-2">
                 <img src={assets.download} alt="download image" className="w-5" />
-                {downloads} M
+                <p className="text-[#00D390]">{downloads} M</p>
             </button>
 
             <button className="bg-[#FFF0E1] border-0 flex px-3 py-2 items-center gap-2">
                <img src={assets.star} alt="star image"  className="w-5"/>
-                {ratingAvg}
+                <p className="text-[#FF8811]">{ratingAvg}</p>
             </button>
           </div>
         </div>

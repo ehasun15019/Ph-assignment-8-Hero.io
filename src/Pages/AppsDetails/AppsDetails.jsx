@@ -81,7 +81,8 @@ const AppsDetails = () => {
             <h2 className="text-2xl md:text-3xl font-bold">{title}</h2>
             <p className="pt-2">
               Developed by
-              <span className="bg-clip-text text-transparent bg-gradient-to-br from-[#6538BA] via-[#7A42E8] to-[#8854CE] font-semibold mb-4">
+
+              <span className="ms-2 bg-clip-text text-transparent bg-gradient-to-br from-[#6538BA] via-[#7A42E8] to-[#8854CE] font-semibold mb-4">
                 {companyName}
               </span>
             </p>
@@ -142,7 +143,7 @@ const AppsDetails = () => {
             <BarChart
               layout="vertical"
               data={ratings}
-              margin={{ top: 10, right: 30, left: 30, bottom: 10 }}
+              margin={{ top: 10, right: 0, left: 0, bottom: 10 }}
             >
               <CartesianGrid strokeDasharray="3 3" vertical={false} />
               <XAxis type="number" domain={[0, "dataMax + 1000"]} />

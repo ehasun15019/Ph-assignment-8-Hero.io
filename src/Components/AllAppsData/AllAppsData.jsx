@@ -72,7 +72,7 @@ const AllAppsData = () => {
 
   return (
     <div>
-      <div className='flex items-center justify-between px-8 mt-4 relative'>
+      <div className='flex items-center justify-between flex-col md:flex-row gap-4 px-8 mt-4 relative'>
         <h3 className='text-2xl md:text-3xl font-bold'>
           ({filterData.length}) Apps Found
         </h3>
