@@ -7,12 +7,12 @@ import { assets } from '../../assets/assets';
 import './Roots.css'
 
 const Roots = () => {
-  const [loading, setLoading] = useState(false);
+  const [loadings, setLoadings] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
-    setLoading(true);
-    const timeout = setTimeout(() => setLoading(false), 700); // fake delay
+    setLoadings(true);
+    const timeout = setTimeout(() => setLoadings(false), 700); // fake delay
     return () => clearTimeout(timeout);
   }, [location]);
 
@@ -20,12 +20,12 @@ const Roots = () => {
     <div className='flex flex-col min-h-screen'>
       <Navbar />
 
-       {loading && (
+       {loadings && (
         <div className="fixed top-0 left-0 w-full h-[3px] bg-gradient-to-r from-[#8A4FFF] via-[#4FC3FF] to-[#8A4FFF] animate-[slide_1s_linear_infinite] z-50"></div>
       )}
 
       <div className='flex-1 loading-animated-text'>
-        {loading ? (
+        {loadings ? (
           <div className="flex justify-center items-center h-[70vh]">
             {/* Custom Loading Text with Spinning Logo */}
             <h2 className="text-3xl font-semibold flex items-center text-blue-600">

@@ -21,4 +21,3 @@ functionalities:
         - app found 
         - sort by korte hbe 
 
-***** loadiong animation on Page change 
