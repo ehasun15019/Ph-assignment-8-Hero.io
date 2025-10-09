@@ -19,7 +19,7 @@ const CardDesign1 = ({image, title, downloads, ratingAvg}) => {
           <div className="card-actions flex justify-between">
             <button className="bg-[#F1F5E8] border-0 flex px-3 py-2 items-center gap-2">
                 <img src={assets.download} alt="download image" className="w-5" />
-                {downloads}
+                {downloads} M
             </button>
 
             <button className="bg-[#FFF0E1] border-0 flex px-3 py-2 items-center gap-2">

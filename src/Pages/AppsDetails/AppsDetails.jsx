@@ -99,7 +99,7 @@ const AppsDetails = () => {
                 />
                 <p>Downloads</p>
                 <h3 className="text-[1.1rem] md:text-[1.5rem] font-bold">
-                  {downloads}
+                  {downloads} M
                 </h3>
               </div>
 

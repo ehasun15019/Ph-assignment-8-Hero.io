@@ -16,7 +16,7 @@ const CardDesign2 = ({image, title, downloads, ratingAvg, size, onUninstall}) =>
                <div className='flex gap-3'>
                     <div className='flex gap-2 items-center'>
                         <img src={assets.download} alt="download" className='w-4' />
-                        <p className='text-[0.8rem]'>{downloads}</p>
+                        <p className='text-[0.8rem]'>{downloads} M</p>
                     </div>
 
                     <div className='flex gap-2 items-center'>
