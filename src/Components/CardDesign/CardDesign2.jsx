@@ -5,7 +5,7 @@ const CardDesign2 = ({image, title, downloads, ratingAvg, size, onUninstall}) =>
   return (
     <div>
         <div className="card-section bg-white mb-4 mt-3 py-6 px-5 rounded flex flex-col md:flex-row justify-between items-center gap-5">
-           <div className='flex gap-3 items-center flex-col md:flex-row justify-center text-center'>
+           <div className='flex gap-3 items-center flex-col md:flex-row justify-center text-center md:text-start'>
              <div className="image-sec w-[40px]">
                 <img src={image} alt={title} />
              </div>
@@ -13,7 +13,7 @@ const CardDesign2 = ({image, title, downloads, ratingAvg, size, onUninstall}) =>
              <div className="content flex flex-col">
                 <h4 className='text-[0.9rem]'>{title}</h4>
 
-               <div className='flex gap-3'>
+               <div className='flex gap-3 mt-3 md:mt-0'>
                     <div className='flex gap-2 items-center'>
                         <img src={assets.download} alt="download" className='w-4' />
                         <p className='text-[0.8rem] text-[#00D390]'>{downloads} M</p>

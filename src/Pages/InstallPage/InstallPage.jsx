@@ -17,10 +17,10 @@ const InstallPage = () => {
 
     if (type === "toHigh") {
       // to Low
-      sortedApps.sort((a, b) => b.downloads - a.downloads);
+      sortedApps.sort((a, b) => a.downloads - b.downloads);
     } else if (type === "toLow") {
       // to High 
-      sortedApps.sort((a, b) => a.downloads - b.downloads);
+      sortedApps.sort((a, b) => b.downloads - a.downloads);
     }
 
     setInstallList(sortedApps); 

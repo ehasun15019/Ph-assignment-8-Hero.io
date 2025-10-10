@@ -40,13 +40,15 @@ const Trading = () => {
 
       <div className="cards-section grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-12 justify-items-center">
         {data.slice(0, 8).map((item) => (
-          <CardDesign1
-            key={item.id}
-            image={item.image}
-            title={item.title}
-            downloads={item.downloads}
-            ratingAvg={item.ratingAvg}
-          />
+          <Link  to={`/appDetails/${item.id}`}>
+            <CardDesign1
+                key={item.id}
+                image={item.image}
+                title={item.title}
+                downloads={item.downloads}
+                ratingAvg={item.ratingAvg}
+            />
+          </Link>          
         ))}
       </div>
 
